@@ -3,7 +3,7 @@ package chap02;
 public class VariableTest {
 
 	public static void main(String[] args) {
-		char myChar = '\u0041'; // À¯´ÏÄÚµå·Î Ç¥ÇöÇÑ ¹®ÀÚ
+		char myChar = '\u0041'; //ìœ ë‹ˆì½”ë“œë¡œ í‘œí˜„í•œ ë¬¸ì
 		System.out.println("myChar = " + myChar);
 		
 		int myInt = 0x15;
@@ -12,7 +12,7 @@ public class VariableTest {
 		float myFloat = 15.1F;
 		System.out.println("myFloat = " + myFloat);
 		
-		System.out.println("Single Quote(\')\tBackslash(\\)"); //Á¦¾î¹®ÀÚ Ãâ·Â
+		System.out.println("Single Quote(\')\tBackslash(\\)"); //ì œì–´ë¬¸ì ì¶œë ¥
 	}
 
 }

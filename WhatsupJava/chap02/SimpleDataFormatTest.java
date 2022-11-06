@@ -8,11 +8,11 @@ public class SimpleDataFormatTest {
 	public static void main(String[] args) {
 		Date today = new Date();
 		
-		SimpleDateFormat dateForm = new SimpleDateFormat("yyyy³â MM¿ù ddÀÏ hh½Ã mmºĞ ssÃÊ");
-		//Ãâ·ÂÇü½Ä ÁöÁ¤
+		SimpleDateFormat dateForm = new SimpleDateFormat("yyyyë…„ MMì›” ddì¼ hhì‹œ mmë¶„ ssì´ˆ");
+		//ì¶œë ¥í˜•ì‹ ì§€ì •
 		
 		System.out.println(dateForm.format(today));
-		//¹Ì¸® ÁöÁ¤ÇÑ Ãâ·ÂÇü½Ä¿¡ ¸ÂÃç È­¸é Ãâ·Â
+		//ë¯¸ë¦¬ ì§€ì •í•œ ì¶œë ¥í˜•ì‹ì— ë§ì¶° í™”ë©´ì— ì¶œë ¥
 
 	}
 

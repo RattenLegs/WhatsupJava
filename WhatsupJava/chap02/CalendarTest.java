@@ -6,12 +6,12 @@ public class CalendarTest {
 
 	public static void main(String[] args) {
 		
-		Calendar now = Calendar.getInstance(); //¹İµå½Ã getInstance() ¸Ş¼­µå·Î ÀÛ¼º
+		Calendar now = Calendar.getInstance(); //ë°˜ë“œì‹œ getInstance() ë©”ì„œë“œë¡œ ìƒì„±
 		
-		int hour = now.get(Calendar.HOUR);
+		int hour = now.get(Calendar.HOUR); //get()ë©”ì„œë“œë¡œ ì‹œê°„ ì •ë³´ ì–»ê¸° ì„ ì–¸
 		int min = now.get(Calendar.MINUTE);
 		
-		System.out.println("ÇöÀç½Ã°£Àº " + hour + "½Ã" + min + "ºĞ ÀÔ´Ï´Ù.");
+		System.out.println("í˜„ì¬ì‹œê°„ì€ " + hour + "ì‹œ " + min + "ë¶„ ì…ë‹ˆë‹¤.");
 		
 	}
 

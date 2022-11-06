@@ -7,18 +7,18 @@ import java.util.Random;
 public class GameJava2_02 {
 
 	public static void main(String[] args) {
-		Date today = new Date();
-		SimpleDateFormat dateForm = new SimpleDateFormat("YYYY³â MM¿ù ddÀÏÀÇ ");
-		//¿À´Ã ³¯Â¥¸¦ ¾î¶»°Ô Ãâ·ÂÇÒ °ÍÀÎÁö
+		Date today = new Date();//Date í´ë˜ìŠ¤ì˜ ê°ì²´ ìƒì„±
+		SimpleDateFormat dateForm = new SimpleDateFormat("YYYYë…„ MMì›” ddì¼ì˜ ");
+		//ì˜¤ëŠ˜ ë‚ ì§œë¥¼ ì–´ë–»ê²Œ ì¶œë ¥í•  ê²ƒì¸ì§€ë¥¼ ë‚˜íƒ€ë‚´ëŠ” ì¶œë ¥í˜•ì‹
 		
 		System.out.print(dateForm.format(today));
-		//print()´Â ¹®ÀÚ¿­À» Ãâ·ÂÇÏ°í ÁÙÀ» ¹Ù²ÙÁö ¾Ê´Â ¸í·É
+		//print()ëŠ” ë¬¸ìì—´ì„ ì¶œë ¥í•˜ê³  ì¤„ì„ ë°”ê¾¸ì§€ ì•ŠëŠ” ëª…ë ¹
 		
 		Random r = new Random();
 		int RandomNum = Math.abs(r.nextInt() % 100)+1;
-		//100À¸·Î ³ª´« ³ª¸ÓÁöÀÇ ¾ç¼ö¿¡ 1À» ´õÇÑ °ª
+		//100ìœ¼ë¡œ ë‚˜ëˆˆ ë‚˜ë¨¸ì§€ì˜ ì–‘ìˆ˜ì— 1ì„ ë”í•œ ê°’
 		
-		System.out.println("±İÀü¿î(100): " + RandomNum + "%");
+		System.out.println("ê¸ˆì „ìš´(100): " + RandomNum + "%");
 	
 
 	}

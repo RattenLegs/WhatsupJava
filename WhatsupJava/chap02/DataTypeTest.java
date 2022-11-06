@@ -4,7 +4,7 @@ public class DataTypeTest {
 
 	public static void main(String[] args) {
 		
-		//º¯¼ö ¼±¾ğ
+		//ë³€ìˆ˜ ì„ ì–¸
 		int i;
 		float f;
 		double d;
@@ -13,8 +13,8 @@ public class DataTypeTest {
 		
 		i = 120;
 		//f=12.23;
-		f = 12.23f; //f´Â 12.23ÀÌ floatÇüÀÌ¶ó´Â Á¡À» ¸í½Ã
-		d = 12.23; //½Ç¼ö µÚ ¾Æ¹« Ç¥½Ã ¾øÀ¸¸é double Ãë±Ş
+		f = 12.23f; //fëŠ” 12.23ì´ floatí˜•ì´ë¼ëŠ” ì ì„ ëª…ì‹œ
+		d = 12.23; //ì‹¤ìˆ˜ ë’¤ì— ì•„ë¬´ í‘œì‹œë„ ì•ˆí•˜ë©´ doubleë¡œ ì·¨ê¸‰
 		c = 'a';
 		b = true;
 		

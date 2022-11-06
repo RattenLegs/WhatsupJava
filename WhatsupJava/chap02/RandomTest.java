@@ -5,10 +5,10 @@ import java.util.Random;
 public class RandomTest {
 
 	public static void main(String[] args) {
-		Random r = new Random();
+		Random r = new Random(); //Random í´ë˜ìŠ¤ì˜ ê°ì²´ ìƒì„±
 		
 		System.out.println(Math.abs(r.nextInt() % 100));
-		//³­¼ö°ªÀ» 100À¸·Î ³ª´« ³ª¸ÓÁö¸¦ ³­¼ö·Î ¹Ù²Ş
+		//ë‚œìˆ˜ ê°’ì„ 100ìœ¼ë¡œ ë‚˜ëˆˆ ë‚˜ë¨¸ì§€ë¥¼ ì–‘ìˆ˜ë¡œ ë°”ê¿ˆ
 	}
 
 }
