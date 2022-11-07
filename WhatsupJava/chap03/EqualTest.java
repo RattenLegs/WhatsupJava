@@ -8,26 +8,26 @@ public class EqualTest {
 		String str3 = str1;
 		String str4 = str2;
 		
-		System.out.println("==°ü°è");
+		System.out.println("== ê´€ê³„");
 		System.out.println("str1 == str1: " +(str1==str1));
-		//°°Àº º¯¼ö´Ï ´ç¿¬È÷ °°À½
+		//ê°™ì€ ë³€ìˆ˜ë‹ˆ ë‹¹ì—°íˆ ê°™ìŒ
 		System.out.println("str1 == str2 " +(str1==str2));
-		//°¡¸®Å°´Â ¹®ÀÚ¿­ÀÇ ³»¿ëÀº °°Áö¸¸ ÀúÀåÇÏ°í ÀÖ´Â ¸Ş¸ğ¸® ÁÖ¼Ò´Â ´Ù¸§
+		//ê°€ë¦¬í‚¤ëŠ” ë¬¸ìì—´ì˜ ë‚´ìš©ì€ ê°™ì§€ë§Œ ì €ì¥í•˜ê³  ìˆëŠ” ë©”ëª¨ë¦¬ ì£¼ì†ŒëŠ” ë‹¤ë¦„
 		System.out.println("str1 == str3 " +(str1==str3));
-		//str3´Â str1À» º¹»çÇÑ º¯¼ö
+		//str3ì€ str1ì„ ë³µì‚¬í•œ ë³€ìˆ˜
 		System.out.println("str1 == str3 " +(str2==str4));
-		//str4´Â str2¸¦ º¹»çÇÑ º¯¼ö
+		//str4ëŠ” str2ë¥¼ ë³µì‚¬í•œ ë³€ìˆ˜
 		System.out.println();
 
-		System.out.println("Equal °ü°è");
+		System.out.println("Equal ê´€ê³„");
 		System.out.println("str1 equls str1 : "+(str1.equals(str1)));
-		//°°Àº º¯¼öÀÌ´Ï ´ç¿¬È÷ °°À½
+		//ê°™ì€ ë³€ìˆ˜ì´ë‹ˆ ë‹¹ì—°íˆ ê°™ìŒ
 		System.out.println("str1 equls str2 : "+(str1.equals(str2)));
-		//ÀúÀåÇÑ ¸Ş¸ğ¸® ÁÖ¼Ò´Â ´Ù¸£Áö¸¸ °¡¸®Å°´Â ¹®ÀÚ¿­ÀÇ ³»¿ëÀº °°À½
+		//ì €ì¥í•œ ë©”ëª¨ë¦¬ ì£¼ì†ŒëŠ” ë‹¤ë¥´ì§€ë§Œ ê°€ë¦¬í‚¤ëŠ” ë¬¸ìì—´ì˜ ë‚´ìš©ì€ ê°™ìŒ
 		System.out.println("str1 equls str3 : "+(str1.equals(str3)));
-		// str3´Â str1À» º¹»çÇÑ º¯¼ö
+		// str3ëŠ” str1ì„ ë³µì‚¬í•œ ë³€ìˆ˜
 		System.out.println("str1 equls str4 : "+(str1.equals(str4)));
-		// str4´Â str2¸¦ º¹»çÇÑ º¯¼ö
+		// str4ëŠ” str2ë¥¼ ë³µì‚¬í•œ ë³€ìˆ˜
 
 	}
 
