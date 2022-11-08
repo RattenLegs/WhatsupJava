@@ -7,12 +7,12 @@ public class AssignmentTest {
 		
 		x=y=z=1;
 		
-		z += x+y; //z = z+x+y客 悼老
+		z += x+y; //z = z+x+y; 鞕� 霃欖澕
 		System.out.println(x);
 		System.out.println(y);
 		System.out.println(z);
 		
-		x += y-= z = 5; //z=5; y=y-z; x=x+y;客 悼老
+		x += y-= z = 5; //z=5; y=y-z; x=x+y; 鞕� 霃欖澕
 		System.out.println(x);
 		System.out.println(y);
 		System.out.println(z);

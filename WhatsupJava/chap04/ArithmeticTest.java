@@ -5,15 +5,15 @@ public class ArithmeticTest {
 	public static void main(String[] args) {
 		int num = 256;
 		
-		System.out.println("ÁÖ¾îÁø ¼ö: "+ num);
-		System.out.println("  1ÀÇ ÀÚ¸®: "+ num %10);
+		System.out.println("ì£¼ì–´ì§„ ìˆ˜: "+ num);
+		System.out.println("  1ì˜ ìë¦¬: "+ num %10);
 		
 		num = num / 10;
 		
-		System.out.println(" 10ÀÇ ÀÚ¸®: " + num %10);
+		System.out.println(" 10ì˜ ìë¦¬: " + num %10);
 		num = num / 10;
 		
-		System.out.println("100ÀÇ ÀÚ¸®: " + num%10);
+		System.out.println("100ì˜ ìë¦¬: " + num%10);
 	}
 
 }
