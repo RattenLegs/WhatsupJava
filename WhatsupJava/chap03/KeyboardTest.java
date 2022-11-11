@@ -8,13 +8,12 @@ public class KeyboardTest {
 
 	public static void main(String[] args) throws IOException {
 		InputStreamReader isr = new InputStreamReader(System.in);
-		//InputStream °´Ã¼¿¡ ¸®´õ¸¦ ¿¬°á
-		BufferedReader in = new BufferedReader(isr); //¸®´õ¿¡ ´Ù½Ã ¹öÆÛ¸¦ ¿¬°á
-		//¹öÆÛ¿¡ ½ºÆ®¸²À¸·Î ¹ŞÀº ¹®ÀÚµéÀ» ¸ğÀ¸´Â °Í
+		//InputStream ê°ì²´ì— readerë¥¼ ì—°ê²°
+		BufferedReader in = new BufferedReader(isr); //readerì— ë‹¤ì‹œ ë²„í¼ ì—°ê²°
 		
 		String str;
-		System.out.println("±Û¾¾¸¦ ÀÔ·ÂÇÏ¸é µû¶óÇÕ´Ï´Ù.");
-		str = in.readLine();
+		System.out.println("ê¸€ì”¨ë¥¼ ì…ë ¥í•˜ë©´ ë”°ë¼í•©ë‹ˆë‹¤.");
+		str = in.readLine(); //í‚¤ë³´ë“œë¡œë¶€í„° í•œ ì¤„ ì…ë ¥ë°›ìŒ
 		System.out.println(str);
 	}
 

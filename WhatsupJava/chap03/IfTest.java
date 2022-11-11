@@ -7,9 +7,9 @@ public class IfTest {
 		boolean condition = true;
 		
 		if(condition) {
-			System.out.println("Âü");
+			System.out.println("ì¡°ê±´ì€ ì°¸");
 		} else {
-			System.out.println("°ÅÁş");
+			System.out.println("ì¡°ê±´ì€ ê±°ì§“");
 		}
 
 	}

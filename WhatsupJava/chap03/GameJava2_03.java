@@ -7,31 +7,33 @@ import java.util.Random;
 
 public class GameJava2_03 {
 
-	public static void main(String[] args) throws IOException {//IOException: Stream ÀÔ·Â Áß ¿¹Ãø ¸øÇÑ °ªÀ» ¸¸³ª¸é ±× Ã³¸®¸¦ ÀÚ¹Ù¿¡°Ô ¾çº¸ÇÑ´Ù
+	public static void main(String[] args) throws IOException {//IOException: Stream ì…ë ¥ ì¤‘ ì˜ˆì¸¡ ëª»í•œ ê°’ì„ ë§Œë‚˜ë©´ ê·¸ ì²˜ë¦¬ë¥¼ ìë°”ì—ê²Œ ì–‘ë³´
 		
-	//0~2 »çÀÌÀÇ ³­¼ö¸¦ ±¸ÇÑ´Ù.
+	//0~2 ì‚¬ì´ì˜ ë‚œìˆ˜ë¥¼ êµ¬í•œë‹¤.
 	Random r = new Random();
 	int computer = Math.abs(r.nextInt() % 3);
-	System.out.println(computer); //abs: Àı´ë°ª
+	//System.out.println(computer); //abs: ì ˆëŒ€ê°’
 	
 	BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 	
 	String user;
-	System.out.println();
-	user = in.readLine(); //Å°º¸µå·ÎºÎÅÍ ÇÑ ÁÙÀ» ÀÔ·Â¹ŞÀ½
+	System.out.println("ê°€ìœ„(a), ë°”ìœ„(b), ë³´(c) ì¤‘ í•˜ë‚˜ë¥¼ ì„ íƒí•˜ì„¸ìš”.");
+	user = in.readLine(); //í‚¤ë³´ë“œë¡œë¶€í„° í•œ ì¤„ì„ ì…ë ¥ë°›ìŒ
 	
 	if(user.equals("a")) {
-		if(computer == 0) System.out.println("¹«½ÂºÎ(°¡À§)");
-		if(computer == 1) System.out.println("ÄÄÇ»ÅÍ ½Â(¹ÙÀ§)");
-		if(computer == 2) System.out.println("»ç¶÷ ½Â(º¸)");
+		if(computer == 0) System.out.println("ë¬´ìŠ¹ë¶€(ê°€ìœ„, ê°€ìœ„)");
+		if(computer == 1) System.out.println("ì»´í“¨í„° ìŠ¹(ë°”ìœ„, ê°€ìœ„)");
+		if(computer == 2) System.out.println("ì‚¬ëŒ ìŠ¹(ë³´, ê°€ìœ„)");
 	} 	else if(user.equals("b")) {
-		if(computer == 0) System.out.println("»ç¶÷ ½Â(°¡À§)");
-		if(computer == 1) System.out.println("¹«½ÂºÎ(¹ÙÀ§)");
-		if(computer == 2) System.out.println("ÄÄÇ»ÅÍ ½Â(º¸)");
+		if(computer == 0) System.out.println("ì‚¬ëŒ ìŠ¹(ê°€ìœ„, ë°”ìœ„)");
+		if(computer == 1) System.out.println("ë¬´ìŠ¹ë¶€(ë°”ìœ„, ë°”ìœ„)");
+		if(computer == 2) System.out.println("ì»´í“¨í„° ìŠ¹(ë³´, ë°”ìœ„)");
 	}else if(user.equals("c")) {
-		if(computer == 0) System.out.println("ÄÄÇ»ÅÍ ½Â(°¡À§)");
-		if(computer == 1) System.out.println("»ç¶÷ ½Â(¹ÙÀ§)");
-		if(computer == 2) System.out.println("¹«½ÂºÎ(º¸)");
+		if(computer == 0) System.out.println("ì»´í“¨í„° ìŠ¹(ê°€ìœ„, ë³´)");
+		if(computer == 1) System.out.println("ì‚¬ëŒ ìŠ¹(ë°”ìœ„, ë³´)");
+		if(computer == 2) System.out.println("ë¬´ìŠ¹ë¶€(ë³´, ë³´)");
+	} else {
+		System.out.println("ì˜ëª» ì…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤.");
 	}
 	
 	}

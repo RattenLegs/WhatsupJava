@@ -10,12 +10,12 @@ public class SwitchTest {
 			System.out.println("1");
 			break;
 		case 2:
-			System.out.println("¿À¿À");
+			System.out.println("ì—†ìŒ");
 		case 3:
-			System.out.println("2 ¶Ç´Â 3");
+			System.out.println("2 ë˜ëŠ” 3");
 			
 		case 4:
-			System.out.println("1,2,3ÀÌ ¾Ğ´Ï´Ù.");
+			System.out.println("1,2,3 ì•„ë‹™ë‹ˆë‹¤.");
 			break;
 		}
 
